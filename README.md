@@ -2,7 +2,7 @@
 
 ![dbt CI — Google Fiber](https://github.com/newbie1669-crypto/google-fiber-fcr-capstone-dbt/actions/workflows/dbt_ci.yml/badge.svg?branch=main&event=push) ![dbt docs](https://img.shields.io/badge/dbt%20docs-live-FF694B?logo=dbt&logoColor=white)
 
-**Very first**, the “—” and “→” symbol often appear because I write my markdown in `Notion` mostly, not because the whole thing is **“ AI g e n e r a t e d ”**.
+**Very first**, the “—” and “→” symbol appear because I write my markdown in `Notion`, not because the whole thing is **“ AI generated ”**.
 
 ---
 
@@ -15,7 +15,7 @@ This project is an extension of [`google-fiber-fcr-analysis-classic`](https://gi
 This project builds on that original work to make it complete, as a real BI project should be.
 
 - **Google Fiber Classic** = the original capstone project
-- **This project** = the original, plus production with a (real) pipeline
+- **This project** = the original plus production with a (real) pipeline
 
 If you wonder what original capstone project look like. You can view my original project at [`This Link`](https://github.com/newbie1669-crypto/google-fiber-fcr-capstone-classic) , or just search `Google business intelligence google fiber case study` on Google — plenty of people have done this project already.
 
@@ -208,40 +208,17 @@ Every choice maps to an established standard (dbt Labs structure guide, Twelve-F
 
 ---
 
-## **What's Next?**
-
-### **1. Beyond the basics, what else can dbt do?**
-
-Once you've mastered the core concepts, you can move on to more advanced features:
-
-- **Macros & Jinja** — write reusable logic following modularity principles; write it once and call it anywhere in the project, instead of rewriting the same logic for every model
-- **Packages** — install ready-made libraries from **dbt Hub**, such as `dbt_utils` and `dbt_expectations`, to instantly add tests and helpers without writing data tests from scratch — **this project use these packages too !!!**
-- **Incremental Models** — build only new data instead of rebuilding the entire table, significantly reducing cost and runtime for projects with **continuously flowing data**
-- **Exposures** — declare which models feed into which dashboards or reports, to track downstream dependencies — so when making changes downstream, you won't accidentally disrupt other pipelines — **this project has this feature**
-- **Snapshots** — track how data changes over time (Slowly Changing Dimensions)
-- **Semantic Layer** — define metrics (e.g., revenue, churn rate) once in a single place instead of rewriting them repeatedly, then reuse them across any BI tool — **it unnecessary for such a small project like this but once you scale out you’ll need it**
-- **dbt Cloud + CI/CD** — run dbt automatically on a schedule or via triggers, with Slim CI that only tests models that have changed — **this project use `GitHub Actions` to fill this role. It trigger by every `push` to GitHub**
-- **etc.**
-
-### **2. How is dbt used in real-world work?**
-
-In practice, `dbt` is **industry gold standard**, serves as **the backbone of the data transformation layer** ( E L " **T** ") within an organization's data stack — far more than just a tool for writing SQL to create tables — everything about transformation done by `dbt`.
-
-**Data/Analytics Engineering and BI teams** use `dbt` to manage complex pipelines with hundreds or even thousands of models, with everyone on the team working from the same codebase via `Git` — complete with version control, code review, and CI/CD, just like a software engineering team. This allows the pipeline to scale.
-
 ### **Case Study**
 
-If you're interested, you can read case studies at [**`www.getdbt.com/case-studies`**](https://www.getdbt.com/case-studies) I highly recommend to reading them to see how powerful the tool is. Companies using dbt include **McDonald's Nordics** and **Nasdaq** (the second-largest electronic stock exchange in the US).
+If you're interested, you can read case studies at [**`www.getdbt.com/case-studies`**](https://www.getdbt.com/case-studies) I highly recommend to reading them to see how powerful it is. Companies using dbt include **McDonald's Nordics** and **Nasdaq** (the second-largest electronic stock exchange in the US).
 
 ## **Additional Resources**
 
 | SOURCE | LINK |
 | --- | --- |
-| dbt Learn (completely free) | [learn.getdbt.com](https://learn.getdbt.com/catalog) |
+| dbt Learn (free courses) | [learn.getdbt.com](https://learn.getdbt.com/catalog) |
 | Official dbt Document | [docs.getdbt.com](https://docs.getdbt.com/docs/introduction) |
 | Best Practices Guide | [docs.getdbt.com/guides/best-practices](https://docs.getdbt.com/guides/best-practices) |
-
-**Key words:** `Analytic engineers` `modern data stack`
 
 ---
 
