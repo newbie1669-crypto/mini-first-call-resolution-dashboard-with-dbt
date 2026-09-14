@@ -1,4 +1,4 @@
-# Google Fiber BI Project w/ DBT - First Contact Resolution (FCR) Analytics
+# [mini project] Google Fiber BI Project w/ DBT - First Contact Resolution (FCR) Analytics
 
 ![dbt CI — Google Fiber](https://github.com/newbie1669-crypto/google-fiber-fcr-capstone-dbt/actions/workflows/dbt_ci.yml/badge.svg?branch=main&event=push) ![dbt docs](https://img.shields.io/badge/dbt%20docs-live-FF694B?logo=dbt&logoColor=white)
 
