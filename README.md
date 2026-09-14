@@ -8,7 +8,7 @@
 
 ## **Note** : Before going into this project
 
-This project is an extension of [`google-fiber-fcr-analysis-classic`](https://github.com/newbie1669-crypto/google-fiber-fcr-analysis-classic) I completed after finishing [`Google Business Intelligence Professional Certificate`](https://www.coursera.org/professional-certificates/google-business-intelligence). The issue with the original one was it only focused on documentation, scope definition, and dashboard creation — mostly leaning toward the business side than overall BI stuff.
+This project is an extension of [`google-fiber-fcr-analysis-dashboard`](https://github.com/newbie1669-crypto/google-fiber-fcr-analysis-classic) I completed after finishing [`Google Business Intelligence Professional Certificate`](https://www.coursera.org/professional-certificates/google-business-intelligence). The issue with the original one was it only focused on documentation, scope definition, and dashboard creation — mostly leaning toward the business side than overall BI stuff.
 
 **What was lack** was an actual deployed `data pipeline`. The original project approach simply loaded CSVs, used SQL `UNION ALL` plus data quality checks, then import the results into a dashboard — **no data pipeline at all. Even data quality testing wasn't a part of the original project’s scope**. What you see in the project is something I added myself.
 
